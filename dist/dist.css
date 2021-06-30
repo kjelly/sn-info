@@ -1,0 +1,38 @@
+body {
+  font-size: 18px;
+  margin: 15px;
+  color: #FFFFFF; }
+
+.grid-container {
+  display: inline-grid; }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row; }
+
+.col {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: column; }
+
+.info {
+  color: #F3A3C2; }
+
+.date {
+  color: #834217; }
+
+.item {
+  border: 1px #CCCCCC solid;
+  margin: 2px;
+  padding: 4px;
+  border-radius: 5px;
+  text-align: center;
+  object-fit: fill;
+  height: 100%;
+  width: 90%;
+  word-wrap: break-word; }
+
+/*# sourceMappingURL=dist.css.map*/
